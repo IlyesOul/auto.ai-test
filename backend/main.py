@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 
 # --- Configuration ---
-RECAPTCHA_SECRET_KEY = "6LeXGagrAAAAAOswOQSEAXcR87nQliv1uVJwERde" #os.environ.get("RECAPTCHA_SECRET_KEY", "YOUR_RECAPTCHA_SECRET_KEY")
+RECAPTCHA_SECRET_KEY = #os.environ.get("RECAPTCHA_SECRET_KEY", "YOUR_RECAPTCHA_SECRET_KEY")
 RECAPTCHA_THRESHOLD = float(os.environ.get("RECAPTCHA_THRESHOLD", 0.5))
 
 # --- Pydantic Models for Request Bodies ---
